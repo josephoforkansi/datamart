@@ -94,7 +94,8 @@ This work is due at different times. The following table outlines due dates:
 
 |Date |Item due |
 |:----|:--------|
-| 20 October 2023 by 4:20pm |Survey and responses |
+| 18 October 2023 by 9:50am |Conduct the survey |
+| 20 October 2023 by 4:20pm |Finish gathering responses and merge the results `csv` file into main branch|
 | 30 October 2023 by 9am |Analysis and results (including programming) |
 | 30 October 2023 during class | Presentations (sprint review) |
 
@@ -127,10 +128,11 @@ Since this is a  formal oral component, unlike code walkthroughs, all neighborho
 
 Your neighborhood must develop an eight (8) question survey that you will deliver to other neighborhoods in order to collect their responses. Choose two (2) questions from each of the categories below. At least one (1) question in each category _must be_ of the "ranked" type. Your team should add these questions to the form assigned to and shared with your neighborhood.
 
-Once you've conducted your survey (see above table for due dates), transfer your results to the spreadsheet shared with your neighborhood. Identify the questions asked on your survey by renaming the `Q` columns with the ID of the corresponding question from the table(s) below. Once completed, your elected neighborhood leader should:
+Once you've conducted your survey via Discord (see above table for due dates), transfer your results to the spreadsheet shared with your neighborhood. Identify the questions asked on your survey by renaming the `Q` columns with the ID of the corresponding question from the table(s) below. Once completed, your elected neighborhood `scrum` leader should:
 
 * export survey results as a spreadsheet and transfer to your neighborhood's template
-* `upload` the file to the `data` directory of this repository
+* save the neighborhood's results as a `cvs` file
+* `upload` the `csv` file to the `data` directory of this repository
 * create a `Pull Request`
 * successfully appeal to neighbors to approve it
 * `merge` the `Pull Request` into `main`
