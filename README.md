@@ -1,7 +1,7 @@
 
 | Date              |          |
 |:------------------|:---------|
-| `TODO` | Assigned |
+| 18 October 2023 | Assigned |
 | Various (see below)    | Due      |
 | Status            | [![GatorGrader](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml) |
 
@@ -35,7 +35,9 @@ to help his vision of a `term-world` up-to-date with all the latest
 
 ## Overview
 
-In this set of activities we cover:
+In this assignment you have an opportunity to engage in processes of two areas of computer and information science: data science and software engineering. While we have been using some of the software engineering practices already, this assignment will allow you to practice those more and give you terminology for some of these practices. This is the first time, however, where you are invited to work with a data set and extract information from it.
+
+Specifically, in this set of activities we cover:
 
 * working collaboratively using Github
 * branching
@@ -53,27 +55,73 @@ You'll complete a few tasks:
 * organizing collected data
 * doing basic data analysis with collected data
 
-## Previous Learning Objectives
+## Learning Outcomes
 
-If you wish to review previous learning objectives from our assignments, you can visit the [`Syllabus`](https://chompe.rs/100-syllabus) for helpful information. However, it's also important to make an effort to retain what we have covered thus far as we progress through the course sections of the Readme might be taken out.
+In this assignment you will learn collecting and analyzing data while following some of the software engineering practices. Specifically, you will learn:
+
+- Proper data reporting, formatting and organizing
+- Writing repetition statements in Python using a `for` loop
+- Using a `list` data structure in Python
+- Following agile software engineering practices
+
+You will also continue to practice:
+
+- Git Flow process
+- Writing Python functions/methods
+- Command line navigation
+- Running Python programs
+- Using version control
+- Technical writing in Markdown
+- Presenting technical work
+
+These assignment learning outcomes contribute to the following course learning outcomes described in the [course syllabus](https://github.com/cmpsc100-allegheny-college/course_information):
+
+1. Apply Python programming principles to execute and explain computer code that implements interactive, novel solutions to a variety of computable problems.
+2. Release code consistent with industry-standard practices using professional grade IDEs, command line tools, and version control tools.
+3. Analyze and suggest revisions to existing Python language code to improve or add functionality.
 
 ## Completing the `datamart`
 
-This assignment has four main parts:
+This assignment has five main parts:
 
-1. Collecting data
-2. Writing a program to analyze the data
-3. Compiling a report which discusses results of the analysis
-4. Individual reflection on the activity
+1. Engaging in `scrum` practices
+2. Collecting data
+3. Writing a program to analyze the data
+4. Compiling a report which discusses results of the analysis
+5. Individual reflection on the activity
 
 This work is due at different times. The following table outlines due dates:
 
 |Date |Item due |
 |:----|:--------|
-|`TODO` |Survey and responses |
-|`TODO`|Analysis and results (including programming) |
+| 20 October 2023 by 4:20pm |Survey and responses |
+| 30 October 2023 by 9am |Analysis and results (including programming) |
+| 30 October 2023 during class | Presentations (sprint review) |
 
-Should everyone be in a position to proceed with other assignment sections earlier, we will do so.
+### Engaging in `scrum` practices
+
+Software Engineering is a multi-person development of multi-version programs to build sustainable software. In other words, `Software Engineering = Programming + Time + Scale`. Software engineers use *version control* to track changes across time and people (think GitHub branches). *Agile* software development involves a set of values that prioritizes individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan. One of the specific agile process is called `scrum`, which is a set of meetings, tools, and roles that help teams manage their work. We will view this assignment as one iteration of work, also called `sprint`. Typically, a single project goes through multiple iterations but in this assignment, we will assume our work is completed in one `sprint`. You will be required to engage in `scrum` process by using [GitHub Flow practices](https://docs.github.com/en/get-started/quickstart/github-flow) (branching, pull requests, merging) and participating in the following activities:
+
+- Identifying a `scrum lead` (also called scrum master). This is your team member who will ensure the team follows `scrum practices`.
+- Conducting a `stand-up` meeting at the beginning of each class, where each team member answers the following questions:
+  - What did I complete since last meeting?
+  - What will I work on before the next meeting?
+  - Am I blocked by anything?
+- Presenting a sprint review to the whole class
+  - Demonstrate work completed during the assignment
+- Sprint retrospective (meeting and reflection)
+  - Identify areas of improvement for next project
+
+#### Presenting your work
+
+Each neighborhood will have 10 minutes to present. All team members are expected to be engaged in delivering a part of the presentation. Slides are optional. In your presentation, describe:
+- the data that you gathered
+- analysis you engaged in
+- the results of your analysis
+
+You also need to run your analysis program either at the beginning or at the end of your presentation and briefly explain how it works in general (no need to explain line by line in code). 
+
+Since this is a  formal oral component, unlike code walkthroughs, all neighborhoods are expected to dedicate time outside of class to hone their team presentations.
 
 ### Collecting data
 
@@ -148,6 +196,7 @@ Data analysis is the programmatic part of this assignment. Here, you'll be asked
 |Function name |Parameters  |Return type | Description                                               |
 |:-------------|:-----------|:-----------|:----------------------------------------------------------|
 |get_row       |`int`       |`list`      |Returns a chosen row of the table as a `list`              |
+|get_col       |`str`       |`list`      |Returns the contents of an entire column as a `list`       |
 |counter       |`str`       |`int`       |Counts instances (across all data) of the `str` entered as a parameter, returns count of that `str` |
 |avg_column    |`str`       |`float`     |Takes column name as parameter and averages the contents of that column |
 |min_value     |`str`       |`int`       |Takes column name as parameter and finds the minimum value in that column |

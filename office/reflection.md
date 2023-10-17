@@ -36,6 +36,16 @@ The above operator formally attests to the following
 
 `TODO`
 
+## SOFTWARE ENGINEERING PROCESS
+
+### Describe the reasoning behind the `scrum` process. How can it be helpful when working in a team?
+
+`TODO`
+
+### Retrospective: describe improvements you would like to make during the next team-based project
+
+`TODO`
+
 ## ANALYSIS OF OPERATIONAL APPLICATION
 
 *Please answer all below questions pertaining to a higher-level analysis of the operations being briefed and their related ideas.*
@@ -48,7 +58,7 @@ The above operator formally attests to the following
 
 `TODO`
 
-## EVALUATIVE QUESTIONNAIRE
+## DATA QUESTIONNAIRE
 
 *Please answer all below questions pertaining to an evaluation of the operations being briefed.*
 
