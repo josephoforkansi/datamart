@@ -125,7 +125,7 @@ Since this is a  formal oral component, unlike code walkthroughs, all neighborho
 
 ### Collecting data
 
-Your neighborhood must develop an eight (8) question survey that you will deliver to other neighborhoods in order to collect their responses. Choose two (2) questions from each of the categories below. At least one (1) question in each category _must be_ of the "ranked" type. Your group should add these questions to the form assigned to and shared with your neighborhood.
+Your neighborhood must develop an eight (8) question survey that you will deliver to other neighborhoods in order to collect their responses. Choose two (2) questions from each of the categories below. At least one (1) question in each category _must be_ of the "ranked" type. Your team should add these questions to the form assigned to and shared with your neighborhood.
 
 Once you've conducted your survey (see above table for due dates), transfer your results to the spreadsheet shared with your neighborhood. Identify the questions asked on your survey by renaming the `Q` columns with the ID of the corresponding question from the table(s) below. Once completed, your elected neighborhood leader should:
 
@@ -208,7 +208,7 @@ Data analysis is the programmatic part of this assignment. Here, you'll be asked
 
 ### Neigborhood Evaluation Research Diagnostic report
 
-This report assumes group participation, and only requires `1` copy. Neighborhood members should collaborate on this report, as it requests many different viewpoints in order to successfully represent your neighborhood.
+This report assumes team participation, and only requires `1` copy. Neighborhood members should collaborate on this report, as it requests many different viewpoints in order to successfully represent your neighborhood.
 
 ### Individual reflection
 
