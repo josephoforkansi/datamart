@@ -235,6 +235,18 @@ Here are some suggestions for improvements you can, **but are not limited to** u
 
 **If you are not following an improvement suggestion you need to have your improvement suggestion checked by the professor before proceeding.**
 
+## Evaluating `datamart` Content
+
+This is a team-based assignment and one grade will be assigned to all team members. Substantial problems encountered during team-work should be documented through the [Code of Conduct Violation Report](https://forms.gle/fTjAAfAHXBxJJSUz5). 
+
+To receive a `Complete` status on this assignment, 1) the assignment repository on GitHub must have a green check and 2) outlined software engineering processes must be followed to the best of team's ability, including giving a team presentation. As with previous assignments, the content for this week is outfitted with a grader program that can be used to evaluate some of your work for this nearly two week assignment. To run the grader for this assignment's work, you will need to be in the topmost level of the `datamart` folder.
+
+Once there, run the command:
+
+`gatorgrade`
+
+The grader will take a few minutes to do its work, but once it's complete the program will populate your terminal window with a series of checks that gauge the overall "completeness" of some of your required work.
+
 ## Backup Policy Reminder
 
 **While we may use this server to store code, you are responsible for using GitHub as your main backup.**

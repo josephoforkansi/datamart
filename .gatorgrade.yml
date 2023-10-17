@@ -1,0 +1,201 @@
+# TO-DONES
+- description: No TODO markers left in any individual reflection
+  category: Reporting back
+  check: ExecuteCommand
+  options:
+    command: "cd office && bash .todos"
+- office/report.md:
+  - description: No TODO markers left in the group report
+    category: Reporting back
+    check: MatchFileFragment
+    options:
+      fragment: "TODO"
+      count: 0
+      exact: true
+- analyzer/main.py:
+  - description: No TODO markers left in analyzer/main.py
+    category: Make the report
+    check: MatchFileFragment
+    options:
+      fragment: "TODO"
+      count: 0
+      exact: true
+# Function signatures
+- analyzer/main.py:
+  - description: Implements correct function signature for get_row
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: "def\\sget_row(\\s)?\\([a-zA-Z0-9_\\s\\=\\:\\\"]+\\)(\\s)?\\->(\\s)?[a-z]+:"
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description: Implements correct function signature for get_col
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: "def\\sget_col(\\s)?\\([a-zA-Z0-9_\\s\\=\\:\\\"]+\\)(\\s)?\\->(\\s)?[a-z]+:"
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description:  Implements correct function signature for counter
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: "def\\scounter(\\s)?\\([a-zA-Z0-9_\\s\\=\\:\\\"]+\\)(\\s)?\\->(\\s)?[a-z]+:"
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description:  Implements correct function signature for min_value
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: "def\\smin_value(\\s)?\\([a-zA-Z0-9_\\s\\=\\:\\\"]+\\)(\\s)?\\->(\\s)?[a-z]+:"
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description:  Implements correct function signature for max_value
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: "def\\smax_value(\\s)?\\([a-zA-Z0-9_\\s\\=\\:\\\"]+\\)(\\s)?\\->(\\s)?[a-z]+:"
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description:  Implements correct function signature for avg_column
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: "def\\savg_column(\\s)?\\([a-zA-Z0-9_\\s\\=\\:\\\"]+\\)(\\s)?\\->(\\s)?[a-z]+:"
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description:  Implements correct function signature for get_mode
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: "def\\sget_mode(\\s)?\\([a-zA-Z0-9_\\s\\=\\:\\\"]+\\)(\\s)?\\->(\\s)?[a-z]+:"
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description:  Implements correct function signature for get_median
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: "def\\sget_median(\\s)?\\([a-zA-Z0-9_\\s\\=\\:\\\"]+\\)(\\s)?\\->(\\s)?[a-z]+:"
+      count: 1
+      exact: true
+# Function calls
+- analyzer/main.py:
+  - description: Makes correct function call to get_row
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: get_row\([a-zA-Z_(\s\=)?]+\)
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description: Makes correct function call to counter
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: counter\([a-zA-Z_(\s\=)?]+\)
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description: Makes correct function call to min_value
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: min_value\([a-zA-Z_(\s\=)?]+\)
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description: Makes correct function call to max_value
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: max_value\([a-zA-Z_(\s\=)?]+\)
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description: Makes correct function call to max_value
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: max_value\([a-zA-Z_(\s\=)?]+\)
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description: Makes correct function call to avg_column
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: avg_column\([a-zA-Z_(\s\=)?]+\)
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description: Makes correct function call to get_mode
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: get_mode\([a-zA-Z_(\s\=)?]+\)
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description: Makes correct function call to get_median
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: get_median\([a-zA-Z_(\s\=)?]+\)
+      count: 1
+      exact: true
+- analyzer/main.py:
+  - description: Makes correct function call to get_col
+    category: Function Junction
+    check: MatchFileRegex
+    options:
+      regex: get_col\([a-zA-Z_(\s\=)?]+\)
+      count: 1
+      exact: false
+# Lists
+- analyzer/main.py:
+  - description: Uses for loops in functions to iterate through ROWS
+    category: Data Dive
+    check: MatchFileRegex
+    options:
+      regex: "for\\s[a-zA-Z_]+\\sin\\sROWS\\:"
+      count: 5
+      exact: false
+- analyzer/main.py: 
+  - description: Uses a for loop to determine the mode (not using ROWS)
+    category: Data Dive
+    check: MatchFileRegex
+    options:
+      regex: "for\\s[a-zA-Z_]+\\sin\\s[^ROWS]+\\:"
+      count: 1
+      exact: false
+- analyzer/main.py:
+  - description: Code retrieves specific indexes of lists using [] (i.e. COLS\[idx])
+    category: Data Dive
+    check: MatchFileRegex
+    options:
+      regex: "[a-zA-Z_]+\\[[a-zA_Z_]+\\]"
+      count: 5
+      exact: false
+- analyzer/main.py:
+  - description: Code retrieves index of list using .index method
+    category: Data Dive
+    check: MatchFileRegex
+    options:
+      regex: "[a-zA-Z_]+\\.index\\([a-zA-Z_]+\\)"
+      count: 1
+      exact: false
+- analyzer/main.py:
+  - description: Code uses the len() built-in function to get list length
+    category: Data Dive
+    check: MatchFileRegex
+    options:
+      regex: "len\\([a-zA-Z_\\.]+\\)"
+      count: 1
+      exact: false
