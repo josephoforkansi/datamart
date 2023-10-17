@@ -82,6 +82,8 @@ These assignment learning outcomes contribute to the following course learning o
 
 ## Completing the `datamart`
 
+Before you begin the work on the assignment, each team needs to accept the assignment to see a repository set up for your team. Selected leader of the team should click on the assignment link. Please verify that the name of your repository contains your neighborhood name. Then, the rest of the team can click on the assignment link, select the correct team, and see a team repository.
+
 This assignment has five main parts:
 
 1. Engaging in `scrum` practices
