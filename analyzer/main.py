@@ -3,7 +3,7 @@ import csv
 from rich.table import Table
 from rich.console import Console
 
-# Do not alter
+# Do not alter beginning
 def load_file(filename: str = "") -> list:
     """ Opens a CSV file """
     data = []
@@ -45,7 +45,7 @@ def display_table() -> None:
 def sorter(column: str = "ID") -> None:
     idx = col_idx(column)
     ROWS.sort(key = lambda ROWS: ROWS[idx])
-# Do not alter
+# Do not alter end
 
 # TODO: Create get_row function per README
 
