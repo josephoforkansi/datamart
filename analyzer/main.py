@@ -22,7 +22,7 @@ def save_file(filename: str = "", columns: list = [], rows: list = []) -> None:
             writer.writerow(row)
 
 def norm_types(data: list = []) -> list:
-    """ PROF: I wrote this improvement because it's really annoying not to? """
+    """ Normalizes values """
     for item in data:
         idx = data.index(item)
         try:
@@ -93,7 +93,7 @@ def main():
             display_table()
         # Do not alter
         """
-            TODO: Create menu structure to call correct functions.
+        TODO: Create menu structure to call correct functions.
         """
 
 if __name__ == "__main__":

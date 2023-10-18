@@ -96,7 +96,8 @@ This work is due at different times. The following table outlines due dates:
 
 |Date |Item due |
 |:----|:--------|
-| 18 October 2023 by 9:50am |Conduct the survey |
+| 18 October 2023 by 11:59pm |Conduct the survey (post a link to the form on Discord) |
+| 20 October 2023 by 2:30pm |Respond to all five neighborhood surveys|
 | 20 October 2023 by 4:20pm |Finish gathering responses and merge the results `csv` file into main branch|
 | 30 October 2023 by 9am |Analysis and results (including programming) |
 | 30 October 2023 during class | Presentations (sprint review) |
