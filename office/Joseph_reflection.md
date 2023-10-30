@@ -9,8 +9,6 @@
 
 ## OPERATOR INFORMATION:
 
-*Please write your name below*
-
 ### Name: Joseph Oforkansi
 
 The above operator formally attests to the following
