@@ -11,7 +11,7 @@
 
 *Please write your name below*
 
-### Name: TODO
+### Name: Joseph Oforkansi
 
 The above operator formally attests to the following
 (*please mark all applicable checkboxes with an `x`*):
@@ -30,21 +30,21 @@ The above operator formally attests to the following
 
 ### To your understanding, what was the goal of this week's work?
 
-`TODO`
+From my understanding i believe the goal of this week's work is to function as a team collecting and entering data from various neighborhoods. Organizing collected data and doing basic data analysis with collected data.
 
 ## What was one non-programmatic difficulty you encountered with your data? Describe it below.
 
-`TODO`
+I struggled with communication because somedays we had missing team members. To find the data mode i needed others to merge their codes.
 
 ## SOFTWARE ENGINEERING PROCESS
 
 ### Describe the reasoning behind the `scrum` process. How can it be helpful when working in a team?
 
-`TODO`
+I believe the reasoning behind the 'scrum' process is to help the team work together. It can be helpful by making complex projects more simple and flexible when working in a team.
 
 ### Retrospective: describe improvements you would like to make during the next team-based project
 
-`TODO`
+Not sure yet.
 
 ## ANALYSIS OF OPERATIONAL APPLICATION
 
@@ -52,11 +52,11 @@ The above operator formally attests to the following
 
 ### Describe the difference between `while` and `for` loops. In what situations would you need one over the other?
 
-`TODO`
+'for' loop is used whenever we know the number of iterations. 'while' loop is used whenever we don't know the number of iterations but we only know the stopping condition.  
 
 ### Were lists necessary for completing this week's tasks? Could you have completed the assignment without them?
 
-`TODO`
+Yes. It definitely made this week's tasks more flexible. I think yes. But it is important we know how to use them, to make code look more understandable and to avoid making the situation more complex.
 
 ## DATA QUESTIONNAIRE
 
@@ -64,10 +64,10 @@ The above operator formally attests to the following
 
 ### What do you think the Mayor is going to do with all of this data?
 
-`TODO`
+First, I think the mayor is going to evaluate all this data. Also I think the major will use this as a technical standpoint for other projects.
 
 ### Does it matter?
 
-`TODO`
+Yes, I think it matters the mayor evaluate this. Because there could be errors we might not see as new programmers. But we learn from our mistakes and feedback.
 
 **YOUR MAYOR THANKS YOU FOR TAKING THE TIME TO FILL OUT THIS BASIC ITEMIZED GUIDE FOR BRIEFING RECENT OPERATIONS.**
