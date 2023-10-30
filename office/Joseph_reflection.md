@@ -14,9 +14,9 @@
 The above operator formally attests to the following
 (*please mark all applicable checkboxes with an `x`*):
 
-- [ ] I adhered to the `term-world` Code of Conduct concerning all `term-world` operations
-- [ ] I stand by the quality of my work
-- [ ] I participated in the completion of an operation that I fully believe to be for the good of `term-world` and all of its citizens
+- [x ] I adhered to the `term-world` Code of Conduct concerning all `term-world` operations
+- [x ] I stand by the quality of my work
+- [x ] I participated in the completion of an operation that I fully believe to be for the good of `term-world` and all of its citizens
 
 **NOTE: SATISFACTORY COMPLETION OF THIS FORM REQUIRES ALL ABOVE CHECKBOXES TO BE CHECKED.**
 
